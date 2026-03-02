@@ -1,0 +1,17 @@
+{
+  "id": "default_org_windows",
+  "name": "Default Org Windows Desktop Baseline",
+  "os": "windows",
+  "description": "Baseline CIS Level 1 profile for Windows 11 desktops in the default organization, focusing on firewall, account policies, and remote access controls.",
+  "modules": [
+    "baseline_snapshot",
+    "cis_audit",
+    "baseline_harden",
+    "drift_check"
+  ],
+  "cisControls": [
+    "CIS-Windows-11-1.1.1",
+    "CIS-Windows-11-1.1.2",
+    "CIS-Windows-11-1.4.1"
+  ]
+}

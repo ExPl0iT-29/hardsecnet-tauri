@@ -1,0 +1,18 @@
+{
+  "id": "cis_ubuntu_desktop",
+  "name": "Ubuntu 24.04 Desktop CIS Baseline",
+  "os": "linux",
+  "description": "Subset of CIS Ubuntu 24.04 Desktop Level 1 controls focusing on firewall, SSH hardening, and basic system policies.",
+  "modules": [
+    "baseline_snapshot",
+    "cis_audit",
+    "baseline_harden",
+    "drift_check"
+  ],
+  "cisControls": [
+    "CIS-Ubuntu-24.04-3.5.1",
+    "CIS-Ubuntu-24.04-3.4.2",
+    "CIS-Ubuntu-24.04-5.1.1"
+  ]
+}
+
